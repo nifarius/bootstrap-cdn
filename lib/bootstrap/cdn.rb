@@ -1,5 +1,6 @@
 require "bootstrap/cdn/version"
 require 'bootstrap/cdn/helpers'
+require 'bootstrap/cdn/engine' if ::Rails.version >= '3.1'
 require 'bootstrap/cdn/railtie'
 
 module Bootstrap
