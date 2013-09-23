@@ -5,7 +5,7 @@ require 'bootstrap/cdn/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bootstrap-cdn"
-  spec.version       = Bootstrap::Cdn::VERSION
+  spec.version       = Bootstrap::CDN::VERSION
   spec.authors       = ["Nifarius"]
   spec.email         = ["nifarius@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}

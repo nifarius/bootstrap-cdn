@@ -1,5 +1,5 @@
 module Bootstrap
-  module Cdn
+  module CDN
     VERSION = "0.0.1"
   end
 end
