@@ -3,7 +3,7 @@ module Bootstrap
     module Helpers
       def bootstrap_stylesheet_include_tag(options = {})
         if Bootstrap::CDN::OFFLINE and !options[:force]
-          stylesheet_link_tag "bootstrap.#{Bootstrap::CDN::BOOTSTRAP_VERSION}.css", "bootstrap-theme.#{Bootstrap::CDN::BOOTSTRAP_VERSION}.css"
+          stylesheet_link_tag "bootstrap.#{Bootstrap::CDN::BOOTSTRAP_VERSION}.css"
         else
           stylesheet_link_tag Bootstrap::CDN::URL[:stylesheet]
         end
